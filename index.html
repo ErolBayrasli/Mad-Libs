@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eggys Libs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Eggys Libs</h1>
+        <form id="madLibsForm">
+            <div class="form-group">
+                <label for="noun">Name:</label>
+                <input type="text" id="noun" name="noun" required>
+            </div>
+            <div class="form-group">
+                <label for="verb">Verb:</label>
+                <input type="text" id="verb" name="verb" required>
+            </div>
+            <div class="form-group">
+                <label for="adjective">Adjective:</label>
+                <input type="text" id="adjective" name="adjective" required>
+            </div>
+            <div class="form-group">
+                <label for="adverb">Adverb:</label>
+                <input type="text" id="adverb" name="adverb" required>
+            </div>
+            <button type="submit">Story</button>
+        </form>
+        <div id="madLibResult" class="result"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
